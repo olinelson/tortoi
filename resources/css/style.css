@@ -4,6 +4,11 @@ html{
   line-height: 1.4;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+}
+
 #container1{
   width: 100%;
   height: 30rem;
@@ -16,6 +21,11 @@ html{
 
 
 }
+
+#container1a{
+  width: 960px;
+}
+
 #menubar{
   width: 960px;
   height: auto;
@@ -25,6 +35,7 @@ html{
   align-items: center;
   justify-content: space-between;
   padding: 0;
+  margin-top: 1rem;
 }
 
 .logo-white{
@@ -63,24 +74,26 @@ html{
 
 }
 
-#look{
-  background-color: white;
-  padding: 0;
-  margin: 0;
+
+
+#container1a{
+  width: 960px;
   display: flex;
-  justify-content: center;
-  align-self: flex-end;
-  margin-top: 10rem;
+  justify-content: flex-end;
   margin-right: -2rem;
-}
-#look p{
-  padding: 1.5rem 5rem;
-  margin: 0;
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.2;
+  margin-top: 10rem;
+
 }
 
+#container1a p{
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height:1.2;
+  padding: 1.5rem 5rem;
+  background-color: white;
+
+}
 
 
 #container2{
@@ -95,26 +108,28 @@ html{
   width: 960px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   padding: 0;
   margin:0;
+
 
 
 }
 
 .imgbox{
   height: 8rem;
-  width: 6rem;
+  width: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 3rem 3rem;
+  margin: 3rem 6rem 0 3rem;
   padding: 0;
+  
 }
 
 .imgbox img{
   align-self: center  ;
-  width: 4rem;
+  width: 5rem;
   height: auto;
 
 
@@ -122,6 +137,11 @@ html{
 
 .imgbox p{
   text-align: center;
+  display: flex;
+  justify-content: center;
+
+
+
 
 
 
@@ -129,4 +149,48 @@ html{
 
 #paper{
   width: 3.5rem;
+}
+
+
+
+#container3{
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+
+.textbox{
+  width: 30%;
+  margin: 3rem 2.5% 5rem 2.5%;
+
+}
+
+.textbox h4{
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+}
+
+
+footer{
+  background-color: azure;
+  width: 960px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+
+}
+
+footer img{
+  height: 1.5rem;
+  width: auto;
+  padding: 4rem 1rem 4rem 4rem;
 }
