@@ -1,0 +1,132 @@
+html{
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#container1{
+  width: 100%;
+  height: 30rem;
+  background-image: url(../glasses-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+#menubar{
+  width: 960px;
+  height: auto;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.logo-white{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center ;
+  padding-left: 2rem;
+
+
+}
+.logo-white h4{
+  color: white;
+  padding-left: 1rem;
+  padding-right: 4rem;
+  white-space: nowrap;
+
+
+}
+
+.logo-white img{
+  height: 1.5rem;
+  width: auto;
+}
+
+#menubarlinks a:visited , a{
+  color: white;
+  text-decoration: none;
+  padding: 0 2rem 0 0;
+}
+
+#menubarlinks{
+  padding-right: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+#look{
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+#look p{
+  padding: 1.5rem 5rem;
+  margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+
+
+#container2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+#container2a{
+  width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin:0;
+
+
+}
+
+.imgbox{
+  height: 8rem;
+  width: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3rem 3rem;
+  padding: 0;
+}
+
+.imgbox img{
+  align-self: center  ;
+  width: 4rem;
+  height: auto;
+
+
+}
+
+.imgbox p{
+  text-align: center;
+
+
+
+}
+
+#paper{
+  width: 3.5rem;
+}
