@@ -74,6 +74,11 @@ body{
 
 }
 
+.smallmenubarlink{
+  display: none;
+
+}
+
 
 
 #container1a{
@@ -221,21 +226,92 @@ footer img{
     margin: 5rem 2rem;
   }
 
-}
-
-
-
-@media screen and (maxwidth: 480px){
-  #menubar{
-    width: 100%;
-    margin: 0;
-    position: fixed;
-}
-
-  .menubarlinks{
+  .smallmenubarlink{
     display: none;
   }
- #menu{
-   display:
- }
+
+}
+
+
+
+@media screen and (max-width: 480px){
+
+  .menubarlinks a{
+    display: none;
+  }
+
+  .smallmenubarlink{
+    display: block;
+  }
+
+  #menubar{
+    width: 100%;
+    position: fixed;
+    padding: 0.5rem  0;
+
+  }
+
+  #container1{
+    background-position: 20%;
+    width: 100%;
+    height: 17rem;
+
+  }
+
+  #container1a{
+    width: 100%;
+    height: 17rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+
+  }
+  #container1a p{
+    white-space: nowrap;
+    padding: 1rem 7rem;
+    margin: 12.5rem 0 0 0;
+    font-size: 1rem;
+    overflow: hidden;
+
+
+  }
+
+
+  #container2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.77rem;
+  }
+
+  .imgbox{
+
+    padding: 0 0 3rem 0;
+    margin: 0;
+  }
+  #container3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textbox{
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+
+  .textbox p{
+    padding: 1rem 0 4rem 0.5rem;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+
+}
+
+
 }
